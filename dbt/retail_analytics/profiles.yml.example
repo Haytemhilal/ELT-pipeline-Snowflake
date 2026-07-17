@@ -1,0 +1,14 @@
+# Copy to ~/.dbt/profiles.yml (and fill in credentials)
+retail_analytics:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: abc12345.ca-central-1.aws
+      user: your_username
+      password: your_password
+      role: ACCOUNTADMIN
+      database: RETAIL
+      warehouse: COMPUTE_WH
+      schema: ANALYTICS
+      threads: 4

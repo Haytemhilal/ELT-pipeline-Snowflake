@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: raw
+    database: RETAIL
+    schema: RAW
+    tables:
+      - name: customers
+      - name: products
+      - name: orders
