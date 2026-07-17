@@ -1,3 +1,4 @@
+<img width="1427" height="827" alt="Screenshot 2026-07-17 at 4 39 19 PM" src="https://github.com/user-attachments/assets/fe23935f-8a99-4de2-9256-7b838b84dbd0" />
 # Retail ELT Pipeline — Snowflake · dbt · Airflow
 
 End-to-end ELT pipeline: raw CSVs → Snowflake → dbt transformations (staging → marts, star schema) → automated data-quality tests → orchestrated by Airflow.
